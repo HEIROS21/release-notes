@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LearnShare Release Notes</title>
+    <style>
+        /* Variables */
+        :root {
+            --bg-color: #000;
+            --text-color: #fff;
+            --accent-color: #1db954;
+            --font-family: Arial, sans-serif;
+            --container-width: 80%;
+            --max-width: 900px;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: var(--font-family);
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .ReleaseNotes {
+            width: var(--container-width);
+            max-width: var(--max-width);
+            margin: auto;
+        }
+
+        .SystemTitle{
+            height: 8em;
+            background-color: skyblue;
+        }
+
+        .SystemTitle h1 {
+            color: black;
+            text-align: center;
+        }
+
+        .Section {
+            margin-bottom: 2em;
+        }
+
+        .Section h2 {
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 0.5em;
+            margin-bottom: 1em;
+        }
+
+        .VideoContainer {
+            margin-top: 2em;
+            display: flex;
+            justify-content: center;
+        }
+
+        .VideoContainer iframe {
+            width: 100%;
+            max-width: 560px;
+            height: 315px;
+            border: none;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding-top: 2em;
+            width: 100%;
+        }
+
+        footer hr {
+            border-color: #555;
+        }
+
+        footer .FooterContainer {
+            padding: 0 15px;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 0.9em;
+        }
+
+        footer a {
+            color: #1db954;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        footer .InsideContainer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="ReleaseNotes">
+        <h1>Release Notes</h1>
+        <div class="SystemTitle">
+            <h1>Development of LearnShare: Interactive Learning and File Exchange Hub</h1>
+        </div>
+
+        <div class="Section">
+            <h2>Version:</h2>
+            <p>1.0.0</p>
+        </div>
+
+        <div class="Section">
+            <h2>Date:</h2>
+            <p>December 13, 2024</p>
+        </div>
+
+        <div class="Section">
+            <h2>New Features:</h2>
+            <ul>
+                <li>Real-time Response on Chatting</li>
+                <li>Updating Room status</li>
+            </ul>
+        </div>
+
+        <div class="Section">
+            <h2>Fixed Issues:</h2>
+            <ul>
+                <li>Resolved the Fetching the message to display on chat box.</li>
+                <li>Fixed Real time response on updating the room status.</li>
+            </ul>
+        </div>
+
+        <div class="Section">
+            <h2>Improvements:</h2>
+            <ul>
+                <li>Enhanced file upload speed by 20%.</li>
+                <li>Improved search functionality with filters.</li>
+            </ul>
+        </div>
+
+        <div class="Section">
+            <h2>Additional Resources:</h2>
+            <ul>
+                <li><a href="#" style="color: var(--accent-color);">User Manual</a></li>
+                <li><a href="#" style="color: var(--accent-color);">Setup Guide</a></li>
+            </ul>
+        </div>
+
+        <div class="VideoContainer">
+            <iframe src="1212.mp4" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <footer class="FooterMain">
+        <div class="FooterContainer">
+            <hr>
+            <div class="InsideContainer">
+                <p> &copy; 2024 LearnShare. All rights reserved. </p>
+                <p>
+                    <a href="#" class="TextLink">Terms of use</a>
+                    <a href="#" class="TextLink"> Privacy policy</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Example JavaScript for future interactions
+        function displayMessage(message) {
+            console.log(message);
+        }
+
+        // Example call to test
+        displayMessage("Release Notes Page Loaded");
+    </script>
+</body>
+</html>
